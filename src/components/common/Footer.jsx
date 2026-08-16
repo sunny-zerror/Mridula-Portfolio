@@ -42,7 +42,7 @@ const Footer = () => {
       </div>
       {/* Big Name Section */}
       <div className="w-full flex justify-center px-4 items-center overflow-hidden">
-        <img className='w-full' src="../../../public/images/footer_txt.svg" alt="" />
+        <img className='w-full' src="/images/footer_txt.svg" alt="" />
       </div>
     </div>
   );
