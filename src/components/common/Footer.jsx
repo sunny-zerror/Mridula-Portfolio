@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <div id="footer" className="w-full pt-20 pb-8 md:pt-32 border-t border-white/5">
       <div className="container flex flex-col justify-between h-full">
-        
+
         {/* Top Info Section */}
         <div className="grid grid-cols-2 md:grid-cols-4 gap-y-2 md:gap-y-10 gap-x-4 mb-20 text-base md:text-sm text-neutral-400">
           {/* Column 1: Copyright */}
@@ -40,10 +40,10 @@ const Footer = () => {
         </div>
 
       </div>
-        {/* Big Name Section */}
-        <div className="w-full flex justify-center px-4 items-center overflow-hidden">
-          <img className='w-full' src="/images/footer_txt.svg" alt="" />
-        </div>
+      {/* Big Name Section */}
+      <div className="w-full flex justify-center px-4 items-center overflow-hidden">
+        <img className='w-full' src="../../../public/images/footer_txt.svg" alt="" />
+      </div>
     </div>
   );
 };
