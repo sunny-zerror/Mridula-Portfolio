@@ -1,3 +1,5 @@
+export const dynamic = 'force-static';
+
 import { siteRoutes } from "@/config/site";
 import { absoluteUrl } from "@/utils/url";
 
