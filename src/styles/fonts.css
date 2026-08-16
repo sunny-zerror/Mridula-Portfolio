@@ -1,0 +1,28 @@
+@font-face {
+  font-family: 'Neue Montreal';
+  src: url('/fonts/NeueMontreal-Regular.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+html,
+body {
+  font-size: 14px;
+  font-weight: 400;
+  font-family: 'Neue Montreal', sans-serif;
+  font-display: swap;
+}
+
+@media (min-width: 750px) {
+  html,
+  body {
+    font-size: 0.94vw;
+  }
+}
+@media (min-width: 1440px) {
+  html,
+  body {
+    font-size: 16px;
+  }
+}
